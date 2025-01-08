@@ -1,0 +1,18 @@
+Sistema basado en RAG para la detección de alucinaciones 
+
+Tomar la pregunta, recuperar la información (tal vez api de google).
+Luego aplicar un método de extracción de relaciones semánticas sobre los documentos recuperados. 
+Si se aplica este método tiene una tabla de relaciones semánticas y posteriormente se pregunta a un modelo "instruct" se le da instrucciones para llevar a cabo una tarea.
+Usando las relaciones semánticas y la pregunta se forme una instrucción. 
+
+
+Análisis semántico para comprobar si en respuesta existen inconsistencias.
+
+
+Recomendación: Realizar el ejercicio, buscar información sobre relaciones semánticas. Análiza el siguiente texto para detectar inconsistencias semánticas, sobre hechos que no sean verdaderos.  
+
+
+Análisis semántico
+
+
+
